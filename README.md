@@ -17,7 +17,7 @@ Log Path: /logs/dashboard/reports/reportA.asp.log
 Example:
 
 ```vbs
-<!--#include virtual="/includes/logger.inc"-->
+<!--#include virtual="/includes/logger.inc.asp"-->
 
 <%
 doLogs = True
@@ -33,7 +33,7 @@ l.write "This is log two"
 Example:
 
 ```vbs
-<!--#include virtual="/includes/console-log.inc"-->
+<!--#include virtual="/includes/console-log.inc.asp"-->
 
 <%
 clog("Message")
@@ -47,7 +47,7 @@ cerr("Error Mesage")
 Example:
 
 ```vbs
-<!--#include virtual="/includes/random.inc"-->
+<!--#include virtual="/includes/random.inc.asp"-->
 
 <%
 Response.Write(RandomInt(1, 100))
