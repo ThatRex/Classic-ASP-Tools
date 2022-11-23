@@ -1,0 +1,8 @@
+{
+    "auto-close-tag.activationOnLanguage": ["asp", "inc"],
+    "auto-rename-tag.activationOnLanguage": ["asp", "inc"],
+    "emmet.includeLanguages": {
+        "asp": "html",
+        "inc": "html"
+    }
+}
