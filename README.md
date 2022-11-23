@@ -5,7 +5,7 @@ Classic ASP includes I wrote for work.
 Also, checkout [ASPJSON](https://github.com/gerritvankuipers/aspjson)
 
 
-## logger.inc
+## logger
 
 This reconstructs the path of the file the logger class is initiated in inside `/logs/`.
 
@@ -28,7 +28,7 @@ l.write "This is log two"
 %>
 ```
 
-## console-log.inc
+## console-log
 
 Example:
 
@@ -42,7 +42,7 @@ cerr("Error Mesage")
 %>
 ```
 
-## random.inc
+## random
 
 Example:
 
