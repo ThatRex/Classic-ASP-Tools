@@ -16,7 +16,7 @@ Log Path: /logs/dashboard/reports/reportA.asp.log
 
 Example:
 
-```vbs
+```asp
 <!--#include virtual="/includes/logger.inc.asp"-->
 
 <%
@@ -32,7 +32,7 @@ l.write "This is log two"
 
 Example:
 
-```vbs
+```asp
 <!--#include virtual="/includes/console-log.inc.asp"-->
 
 <%
@@ -46,7 +46,7 @@ cerr("Error Mesage")
 
 Example:
 
-```vbs
+```asp
 <!--#include virtual="/includes/random.inc.asp"-->
 
 <%
